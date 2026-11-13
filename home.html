@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | GN</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            background-image: linear-gradient(to right, rgb(20, 147, 220), rgb(17, 54, 71));
+            min-height: 100vh;
+            color: white;
+        }
+
+        header {
+            background-color: rgba(0, 0, 0, 0.4);
+            padding: 20px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 25px;
+            font-size: 16px;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            color: #00bfff;
+        }
+
+        .hero {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            height: 80vh;
+            padding: 20px;
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.4);
+        }
+
+        .hero p {
+            font-size: 20px;
+            max-width: 600px;
+            margin-bottom: 40px;
+            opacity: 0.9;
+        }
+
+        .botoes {
+            display: flex;
+            gap: 20px;
+        }
+
+        .btn {
+            padding: 14px 35px;
+            border: none;
+            border-radius: 10px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+
+        .btn-cadastro {
+            background-image: linear-gradient(to right, rgb(0, 92, 197), rgb(90, 20, 220));
+            color: white;
+        }
+
+        .btn-cadastro:hover {
+            background-image: linear-gradient(to right, rgb(0, 80, 172), rgb(80, 19, 195));
+            transform: scale(1.05);
+        }
+
+        .btn-login {
+            background-color: transparent;
+            border: 2px solid white;
+            color: white;
+        }
+
+        .btn-login:hover {
+            background-color: white;
+            color: #113647;
+            transform: scale(1.05);
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.3);
+            font-size: 14px;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">Meu Projeto</div>
+        <nav>
+            <a href="cadastro.html">Cadastro</a>
+            <a href="login.html">Login</a>
+            <a href="sobre.html">Sobre</a>
+            <a href="contato.html">Contato</a>
+             <a href="Dashboard.html">Dashboard</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Bem-vindo ao nosso sistema</h1>
+        <p>Faça seu cadastro ou entre na sua conta para acessar todas as funcionalidades.</p>
+        
+        <div class="botoes">
+            <a href="cadastro.html" class="btn btn-cadastro">Cadastrar</a>
+            <a href="login.html" class="btn btn-login">Entrar</a>
+        </div>
+    </section>
+
+    <footer>
+        © 2026 - Projeto de Faculdade | HTML + CSS + C
+    </footer>
+
+</body>
+</html>

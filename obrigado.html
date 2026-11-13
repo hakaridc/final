@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Obrigado | GN</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            background-image: linear-gradient(to right, rgb(20, 147, 220), rgb(17, 54, 71));
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+
+        .box {
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 50px 40px;
+            border-radius: 15px;
+            text-align: center;
+            width: 420px;
+            border: 3px solid dodgerblue;
+        }
+
+        .box h1 {
+            font-size: 32px;
+            margin-bottom: 20px;
+            color: #00bfff;
+        }
+
+        .box p {
+            font-size: 18px;
+            margin-bottom: 35px;
+            line-height: 1.5;
+            opacity: 0.95;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 14px 35px;
+            background-image: linear-gradient(to right, rgb(0, 92, 197), rgb(90, 20, 220));
+            color: white;
+            text-decoration: none;
+            border-radius: 10px;
+            font-size: 16px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background-image: linear-gradient(to right, rgb(0, 80, 172), rgb(80, 19, 195));
+            transform: scale(1.05);
+        }
+
+        .btn-secundario {
+            display: inline-block;
+            margin-top: 15px;
+            color: #00bfff;
+            text-decoration: none;
+            font-size: 15px;
+        }
+
+        .btn-secundario:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h1>Cadastro realizado!</h1>
+        <p>Obrigado por se cadastrar.<br>
+        Seus dados foram enviados com sucesso.</p>
+
+        <a href="login.html" class="btn">Fazer Login</a>
+        <br>
+        <a href="index.html" class="btn-secundario">Voltar para a Home</a>
+    </div>
+</body>
+</html>

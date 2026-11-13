@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre | GN</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            background-image: linear-gradient(to right, rgb(20, 147, 220), rgb(17, 54, 71));
+            min-height: 100vh;
+            color: white;
+        }
+
+        header {
+            background-color: rgba(0, 0, 0, 0.4);
+            padding: 15px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 22px;
+            font-size: 15px;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            color: #00bfff;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 60px auto;
+            padding: 0 20px;
+        }
+
+        .box {
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 40px;
+            border-radius: 15px;
+            border: 3px solid dodgerblue;
+            line-height: 1.7;
+        }
+
+        .box h1 {
+            font-size: 32px;
+            margin-bottom: 25px;
+            color: #00bfff;
+            text-align: center;
+        }
+
+        .box h2 {
+            font-size: 22px;
+            margin: 30px 0 15px;
+            color: dodgerblue;
+        }
+
+        .box p {
+            font-size: 16px;
+            margin-bottom: 15px;
+            opacity: 0.95;
+        }
+
+        .tecnologias {
+            display: flex;
+            gap: 15px;
+            margin-top: 15px;
+            flex-wrap: wrap;
+        }
+
+        .tech {
+            background-color: rgba(30, 144, 255, 0.2);
+            border: 1px solid dodgerblue;
+            padding: 8px 18px;
+            border-radius: 20px;
+            font-size: 14px;
+        }
+
+        ul {
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+
+        ul li {
+            margin-bottom: 8px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">Meu Projeto</div>
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="cadastro.html">Cadastro</a>
+            <a href="login.html">Login</a>
+            <a href="contato.html">Contato</a>
+            <a href="Dashboard.html">Dashboard</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="box">
+            <h1>Sobre o Projeto</h1>
+
+            <p>
+                Este site foi desenvolvido como projeto acadêmico da disciplina de Programação Web / Desenvolvimento de Sistemas.
+                O objetivo principal é criar uma aplicação completa utilizando as tecnologias estudadas em sala de aula.
+            </p>
+
+            <h2>Objetivo</h2>
+            <p>
+                Desenvolver um sistema com páginas de cadastro, login e área do usuário, 
+                aplicando conceitos de front-end e integração com backend em linguagem C.
+            </p>
+
+            <h2>Tecnologias Utilizadas</h2>
+            <div class="tecnologias">
+                <div class="tech">HTML5</div>
+                <div class="tech">CSS3</div>
+                <div class="tech">Linguagem C</div>
+            </div>
+
+            <h2>Funcionalidades</h2>
+            <ul>
+                <li>Página inicial com navegação</li>
+                <li>Formulário de cadastro de usuários</li>
+                <li>Sistema de login</li>
+                <li>Página de contato</li>
+                <li>Área do usuário (Dashboard)</li>
+            </ul>
+
+            <h2>Desenvolvido por</h2>
+            <p>
+                Aluno: <strong>Seu Nome Aqui</strong><br>
+                Curso: <strong>Seu Curso</strong><br>
+                Instituição: <strong>Nome da Faculdade</strong>
+            </p>
+        </div>
+    </div>
+
+</body>
+</html>
